@@ -1,0 +1,39 @@
+{
+  "name": "classy-components",
+  "version": "0.1.0",
+  "description": "Creates React components with specified CSS classes",
+  "main": "index.js",
+  "author": "Samuel Kaiser",
+  "license": "MIT",
+  "repository": "sk22/classy-components.js",
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "3.0.2",
+    "eslint-plugin-react": "^6.9.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-scripts": "^0.9.0"
+  },
+  "scripts": {
+    "test": "react-scripts test --env=jsdom"
+  },
+  "eslintConfig": {
+    "extends": [
+      "airbnb"
+    ],
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "parser": "babel-eslint"
+  },
+  "peerDependencies": {
+    "react": "^15.4.2"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5"
+  }
+}
