@@ -1,10 +1,9 @@
+# DEPRECATED
+
 # <🎩>
 # classy components
 
 inspired by [styled components][styled]
-
-[![npm downloads](https://img.shields.io/npm/dt/classy-components.svg?style=flat-square)][npm]
-[![npm](https://img.shields.io/npm/v/classy-components.svg?style=flat-square)][npm]
 
 Classy Components creates React components that have certain CSS classes.
 
